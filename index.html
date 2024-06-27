@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Route</title>
+    <link rel="icon" type="image/png" href="favicon.png"> <!-- Make sure the logo is named favicon.png -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            background-color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #000;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        h1::after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 5px;
+            background-color: rgba(238, 84, 101, 1);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        p {
+            font-size: 1.5em;
+            color: #666;
+        }
+        .coming-soon {
+            font-size: 1.2em;
+            color: rgba(238, 84, 101, 1);
+            margin-top: 20px;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Recipe Route Logo" class="logo">
+        <br>
+        <h1>Recipe Route</h1>
+        <p>Recipe Route connects neighbors and builds community through the growing, gathering, and cooking of food. Generate AI recipes with local ingredients.</p>
+        <br>
+        <p class="coming-soon">Coming to iOS and Android soon</p>
+    </div>
+</body>
+</html>
